@@ -42,15 +42,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 with col1:
-    st.image("pop.jpg", width=250)
+    st.image("bakery/pop.jpg", width=250)
     st.subheader('red velvet cake pop')
     st.write('price: $3.00')
 
-
-with col2:
-    st.image('coffee.webp', width=250)
-    st.subheader('macciato')
-    st.write('price: $3.00')
 
 
 rating = st.slider('rate our cake pops')
